@@ -1,20 +1,91 @@
-#div_title {
-    background-image: url(./assets/img/pattern.png);
-    background-color: dodgerblue;
-    width: 100%;
-    height: 200px;
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
-#title {
-    width: 300px;
-    position:absolute;
-    top: 100px;
-    left: 200px;
+main, footer {
+    padding-left: 15%;
+    padding-right: 15%;
 }
-p{
-    line-height: 2px;
+
+#logo {
+    background-image: url(./assets/img/pattern.png);
+    background-color: rgb(0, 162, 255);
 }
-    
-#autore{
-    color: rgb(0, 195, 255);
+
+#logo img {
+    margin-top: 4%;
+    margin-left: 1%;
+    width: 20%;
+    opacity: 0.9;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+#data {
+    color: grey;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+}
+
+#data h3, p {
+    margin: 0px;
+}
+
+#photoDescription p {
+    font-size: 10px;
+    margin: 0px;
+}
+
+thead {
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
+
+.col1 {
+    background-color: rgb(185, 233, 251);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.col1, .col2 {
+    height: 80px;
+}
+
+.sottolineato {
+    background-color: yellow;
+}
+
+footer p {
+    color: grey;
+    font-weight: bold;
+}
+
+#articolo1 {
+    background-image: url(./assets/img/monitor.jpg);
+    height: 208px;
+    width: 312px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#articolo2 {
+    background-image: url(./assets/img/graph.jpg);
+    height: 208px;
+    width: 312px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#articolo1 a, #articolo2 a {
+    color: white;
 }
