@@ -3,10 +3,6 @@
     margin: 0;
 }
 
-main, footer {
-    padding-left: 15%;
-    padding-right: 15%;
-}
 
 #logo {
     background-image: url(./assets/img/pattern.png);
